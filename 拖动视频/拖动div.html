@@ -10,13 +10,17 @@
 	<body>
 		<button id="videoBtn">点击我弹出视频</button>
 		<div id='videoMask'>
-			<video id='video'  width="800" height="" controls="">
-				<!--<source id="videoSource"  type="video/mp4"></source>-->
-				当前浏览器不支持 video直接播放，点击这里下载视频：
-				<a href="myvideo.webm">下载视频</a>
-			</video>
+			<div id='videoWrap'>
+				<video id='video' src='../asset/video/610c5dce66c50a43aa147c009ed47ac1.mp4' controls="">
+					<!--<source id="videoSource"  type="video/mp4"></source>-->
+					当前浏览器不支持 video直接播放，点击这里下载视频：
+					<a href="myvideo.webm">下载视频</a>
+				</video>
+			</div>
+
 		</div>
-		
+		<script src='../asset/js/jquery-2.1.0.js'></script>
+		<script type="text/javascript" src='../asset/js/tuozhuai.js'></script>
 		<script type="text/javascript" src="../asset/js/video.js"></script>
 	</body>
 
