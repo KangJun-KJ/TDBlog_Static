@@ -1,4 +1,4 @@
-$("showMakM").addEventListener('click',function(){
+			$("showMakM").addEventListener('click',function(){
 				$("coverBg").style.display="block";
 			})
 			document.getElementsByClassName("errorBtnSure")[0].addEventListener('click',function(){
