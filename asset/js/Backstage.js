@@ -19,6 +19,8 @@ $(document).ready(function() {
 				$(".contianer_leftMenu").addClass("contianer_leftMenu_animate")
 			}
 		} else {
+			$(".show").removeClass('show');
+			$(".open").removeClass('open');
 			$(".btn-mobile-sidenav").addClass("nav-bar-click");
 			setTimeout(function() {
 				$(".btn-mobile-sidenav").removeClass("nav-bar-click");
