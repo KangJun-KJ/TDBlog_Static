@@ -1,5 +1,7 @@
 $(document).ready(function() {
 	window.onresize=throll(function(){
+
+
         if(window.innerWidth <= 900) {
 
         	$(".onlyShowIcon").removeClass("onlyShowIcon");

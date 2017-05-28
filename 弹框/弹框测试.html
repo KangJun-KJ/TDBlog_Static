@@ -12,16 +12,28 @@
 		<button id='showMakM'>按钮</button>
 		<div id="coverBg">
 			<div id="alertErrorBox" class="animated zoomIn">
-				<p id="alertHeader" >信息	</p>
+				<p id="alertHeader">信息 </p>
 				<div class='ErrorLine'></div>
-				<p class='ErrorTips'>错错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息错误信息误信息</p>
-				<p class='ErrorTips'>错误信息</p>
-				<p class='ErrorTips'>错误信息</p>
+
+				<!--<p class='ErrorTips'>错误信息</p>-->
 
 				<button class=" errorBtnSure">确认</button>
 			</div>
 		</div>
+
 		<script type="text/javascript" src="../asset/js/alert.js"></script>
+		<script type="text/javascript" src="../asset/js/jquery-2.1.0.js"></script>
+		<script type="text/javascript">
+			window.onload = function() {
+				/*
+				 * 调用示范
+				 */
+				document.getElementById("showMakM").addEventListener('click', function() {
+					var msg = ["这是第一条信息", "这是第二条信息", "这是一条很长长长长长长长长长长长长长长的信息"];
+					showAlert(msg, true);
+				});
+			}
+		</script>
 	</body>
 
 </html>
